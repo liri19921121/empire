@@ -1,0 +1,1472 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="shiro-web:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d21e3d3f-4ace-46a6-bfa8-2bd9ba42830a" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_8_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_8_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_8_5_27.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_8_5_27.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_8_5_27.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_tomcat_annotations_api_8_5_27.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_tomcat_jdbc_8_5_27.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_tomcat_juli_8_5_27.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_1_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_1_10_19.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_4_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_1_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_autoconfigure_1_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_starter_1_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_quartz_scheduler_quartz_1_8_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jcl_over_slf4j_1_7_25.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_25.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_log4j_over_slf4j_1_7_25.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_25.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_log4j12_1_7_25.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_1_5_10_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_1_5_13_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_1_5_10_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_1_5_13_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_1_5_10_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_1_5_13_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_aop_1_5_13_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_jpa_1_5_13_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_1_5_10_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_1_5_13_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_log4j_1_3_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_1_5_10_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_1_5_13_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_redis_1_4_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_security_1_5_13_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_1_5_10_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_1_5_13_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_thymeleaf_1_5_13_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_1_5_10_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_1_5_13_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_1_5_10_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_1_5_13_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_1_5_10_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_1_5_13_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_1_5_10_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_1_5_13_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_commons_1_13_12_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_jpa_1_11_12_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_keyvalue_1_2_12_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_redis_1_8_12_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_config_4_2_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_core_4_2_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_web_4_2_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_4_3_14_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_4_3_17_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aspects_4_3_17_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_3_2_14_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_3_2_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_4_3_14_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_4_3_17_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_3_2_14_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_3_2_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_3_2_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_4_2_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_4_3_14_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_4_3_17_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_3_2_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_4_3_17_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_3_2_14_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_3_2_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_4_3_14_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_4_3_17_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_3_2_14_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_3_2_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_3_2_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_4_2_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_4_3_14_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_4_3_17_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_3_2_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_4_2_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_4_3_14_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_4_3_17_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jms_3_2_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_orm_3_2_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_orm_4_3_17_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_oxm_4_3_17_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_4_3_14_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_4_3_17_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_4_3_14_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_4_3_17_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_4_3_14_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_4_3_17_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_4_2_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_4_3_14_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_4_3_17_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_spring4_2_1_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_unbescape_unbescape_1_1_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/tomcat7_websocket.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/websocket.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-project/src/main/java/test" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/my-project/src/main/java/test/base" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/my-project/src/main/java/test/controller" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/my-project/src/main/java/test/dao" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/my-project/src/main/java/test/pojo" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/my-project/src/main/java/test/service" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/my-project/src/main/java/test/util" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/springboot-mybatis/src/main/java/com" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/springboot-mybatis/src/main/java/com/controller" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/springboot-mybatis/src/main/java/com/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-mybatis/src/main/java/com/dao" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/springboot-mybatis/src/main/java/com/dao/UserInfoMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-mybatis/src/main/java/com/pojo" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/springboot-mybatis/src/main/java/com/pojo/UserInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-mybatis/src/main/java/com/service" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/springboot-mybatis/src/main/java/com/service/IUserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-mybatis/src/main/java/com/service/impl" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/springboot-mybatis/src/main/java/com/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-mybatis/src/main/java/com/springbootmybatisdemo" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/springboot-mybatis/src/main/java/com/springbootmybatisdemo/SpringbootMybatisDemoApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/empire.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/empire.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_3_2_5_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_3_2_5_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_3_2_3_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_3_2_3_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_3_2_5_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_3_2_5_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_3_2_3_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_3_2_3_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_3_2_5_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_3_2_5_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_3_2_3_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_3_2_3_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_3_2_5_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_3_2_5_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__us_codecraft_webmagic_extension_0_7_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__us_codecraft_webmagic_extension_0_7_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__us_codecraft_xsoup_0_3_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__us_codecraft_xsoup_0_3_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-project/target/classes/com/research/ThreadTest$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/my-project/target/classes/com/research/ThreadTest$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-project/target/classes/com/research/ThreadTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/my-project/target/classes/com/research/ThreadTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-project/target/classes/com/research/customerAnnotation/copy/CheckLoginInterceptor.class" beforeDir="false" afterPath="$PROJECT_DIR$/my-project/target/classes/com/research/customerAnnotation/copy/CheckLoginInterceptor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-project/target/classes/com/research/designPattern/commandMode/ControlPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/my-project/target/classes/com/research/designPattern/commandMode/ControlPanel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-project/target/classes/com/research/designPattern/observerPattern/ObjectFor3D.class" beforeDir="false" afterPath="$PROJECT_DIR$/my-project/target/classes/com/research/designPattern/observerPattern/ObjectFor3D.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-project/target/classes/com/research/designPattern/singletonMode/SingletonEnum.class" beforeDir="false" afterPath="$PROJECT_DIR$/my-project/target/classes/com/research/designPattern/singletonMode/SingletonEnum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-project/target/classes/com/research/designPattern/singletonMode/SingletonInternalClass$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/my-project/target/classes/com/research/designPattern/singletonMode/SingletonInternalClass$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-project/target/classes/com/research/designPattern/singletonMode/SingletonInternalClass$SingletonHolder.class" beforeDir="false" afterPath="$PROJECT_DIR$/my-project/target/classes/com/research/designPattern/singletonMode/SingletonInternalClass$SingletonHolder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-project/target/classes/com/research/designPattern/singletonMode/SingletonInternalClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/my-project/target/classes/com/research/designPattern/singletonMode/SingletonInternalClass.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-project/target/classes/com/research/designPattern/strategyPattern/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/my-project/target/classes/com/research/designPattern/strategyPattern/Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-project/target/classes/com/research/filter/XssHttpServletRequestWrapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/my-project/target/classes/com/research/filter/XssHttpServletRequestWrapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-project/target/classes/com/research/imageVerify/controller/LoginController.class" beforeDir="false" afterPath="$PROJECT_DIR$/my-project/target/classes/com/research/imageVerify/controller/LoginController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-project/target/classes/com/research/imageVerify/util/GenerateImage.class" beforeDir="false" afterPath="$PROJECT_DIR$/my-project/target/classes/com/research/imageVerify/util/GenerateImage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-project/target/classes/com/research/netty/TimeClient$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/my-project/target/classes/com/research/netty/TimeClient$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-project/target/classes/com/research/netty/TimeClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/my-project/target/classes/com/research/netty/TimeClient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-project/target/classes/com/research/netty/TimeClientHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/my-project/target/classes/com/research/netty/TimeClientHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-project/target/classes/com/research/netty/TimeServer$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/my-project/target/classes/com/research/netty/TimeServer$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-project/target/classes/com/research/netty/TimeServer$ChildChannelHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/my-project/target/classes/com/research/netty/TimeServer$ChildChannelHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-project/target/classes/com/research/netty/TimeServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/my-project/target/classes/com/research/netty/TimeServer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-project/target/classes/com/research/netty/TimeServerHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/my-project/target/classes/com/research/netty/TimeServerHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-project/target/classes/com/research/netty/WebSocket/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/my-project/target/classes/com/research/netty/WebSocket/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-project/target/classes/com/research/netty/WebSocket/MyWebSocketChannelHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/my-project/target/classes/com/research/netty/WebSocket/MyWebSocketChannelHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-project/target/classes/com/research/netty/WebSocket/MyWebSocketHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/my-project/target/classes/com/research/netty/WebSocket/MyWebSocketHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-project/target/classes/com/research/netty/WebSocketChatRoomPrimordial/Socket.class" beforeDir="false" afterPath="$PROJECT_DIR$/my-project/target/classes/com/research/netty/WebSocketChatRoomPrimordial/Socket.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-project/target/classes/com/research/sso/Util.class" beforeDir="false" afterPath="$PROJECT_DIR$/my-project/target/classes/com/research/sso/Util.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-project/target/classes/com/research/synchronize$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/my-project/target/classes/com/research/synchronize$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-project/target/classes/com/research/synchronize$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/my-project/target/classes/com/research/synchronize$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-project/target/classes/com/research/synchronize.class" beforeDir="false" afterPath="$PROJECT_DIR$/my-project/target/classes/com/research/synchronize.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-project/target/classes/com/research/tankPlayGame/BombTank.class" beforeDir="false" afterPath="$PROJECT_DIR$/my-project/target/classes/com/research/tankPlayGame/BombTank.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-project/target/classes/com/research/tankPlayGame/Bullets$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/my-project/target/classes/com/research/tankPlayGame/Bullets$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-project/target/classes/com/research/tankPlayGame/Bullets.class" beforeDir="false" afterPath="$PROJECT_DIR$/my-project/target/classes/com/research/tankPlayGame/Bullets.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-project/target/classes/com/research/tankPlayGame/CommonWall.class" beforeDir="false" afterPath="$PROJECT_DIR$/my-project/target/classes/com/research/tankPlayGame/CommonWall.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-project/target/classes/com/research/tankPlayGame/Direction.class" beforeDir="false" afterPath="$PROJECT_DIR$/my-project/target/classes/com/research/tankPlayGame/Direction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-project/target/classes/com/research/tankPlayGame/GetBlood.class" beforeDir="false" afterPath="$PROJECT_DIR$/my-project/target/classes/com/research/tankPlayGame/GetBlood.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-project/target/classes/com/research/tankPlayGame/Home.class" beforeDir="false" afterPath="$PROJECT_DIR$/my-project/target/classes/com/research/tankPlayGame/Home.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-project/target/classes/com/research/tankPlayGame/MetalWall.class" beforeDir="false" afterPath="$PROJECT_DIR$/my-project/target/classes/com/research/tankPlayGame/MetalWall.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-project/target/classes/com/research/tankPlayGame/River.class" beforeDir="false" afterPath="$PROJECT_DIR$/my-project/target/classes/com/research/tankPlayGame/River.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-project/target/classes/com/research/tankPlayGame/Tank$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/my-project/target/classes/com/research/tankPlayGame/Tank$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-project/target/classes/com/research/tankPlayGame/Tank$DrawBloodbBar.class" beforeDir="false" afterPath="$PROJECT_DIR$/my-project/target/classes/com/research/tankPlayGame/Tank$DrawBloodbBar.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-project/target/classes/com/research/tankPlayGame/Tank.class" beforeDir="false" afterPath="$PROJECT_DIR$/my-project/target/classes/com/research/tankPlayGame/Tank.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-project/target/classes/com/research/tankPlayGame/TankClient$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/my-project/target/classes/com/research/tankPlayGame/TankClient$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-project/target/classes/com/research/tankPlayGame/TankClient$KeyMonitor.class" beforeDir="false" afterPath="$PROJECT_DIR$/my-project/target/classes/com/research/tankPlayGame/TankClient$KeyMonitor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-project/target/classes/com/research/tankPlayGame/TankClient$PaintThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/my-project/target/classes/com/research/tankPlayGame/TankClient$PaintThread.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-project/target/classes/com/research/tankPlayGame/TankClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/my-project/target/classes/com/research/tankPlayGame/TankClient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-project/target/classes/com/research/tankPlayGame/Tree.class" beforeDir="false" afterPath="$PROJECT_DIR$/my-project/target/classes/com/research/tankPlayGame/Tree.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-project/target/classes/com/research/web_spider/imp_spider.class" beforeDir="false" afterPath="$PROJECT_DIR$/my-project/target/classes/com/research/web_spider/imp_spider.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-project/target/classes/com/research/web_spider/webmagic/OschinaBlogPageProcesser.class" beforeDir="false" afterPath="$PROJECT_DIR$/my-project/target/classes/com/research/web_spider/webmagic/OschinaBlogPageProcesser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-project/target/classes/com/research/wx/config/WXPayConfigImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/my-project/target/classes/com/research/wx/config/WXPayConfigImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-project/target/classes/com/research/wx/controller/WxController.class" beforeDir="false" afterPath="$PROJECT_DIR$/my-project/target/classes/com/research/wx/controller/WxController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-project/target/classes/com/research/wx/pojo/BestPayTypeEnum.class" beforeDir="false" afterPath="$PROJECT_DIR$/my-project/target/classes/com/research/wx/pojo/BestPayTypeEnum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-project/target/classes/com/research/wx/sdk/WXPay.class" beforeDir="false" afterPath="$PROJECT_DIR$/my-project/target/classes/com/research/wx/sdk/WXPay.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-project/target/classes/com/research/wx/sdk/WXPayConstants$SignType.class" beforeDir="false" afterPath="$PROJECT_DIR$/my-project/target/classes/com/research/wx/sdk/WXPayConstants$SignType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-project/target/classes/com/research/wx/sdk/WXPayConstants.class" beforeDir="false" afterPath="$PROJECT_DIR$/my-project/target/classes/com/research/wx/sdk/WXPayConstants.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-project/target/classes/com/research/wx/sdk/WXPayReport$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/my-project/target/classes/com/research/wx/sdk/WXPayReport$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-project/target/classes/com/research/wx/sdk/WXPayReport$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/my-project/target/classes/com/research/wx/sdk/WXPayReport$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-project/target/classes/com/research/wx/sdk/WXPayReport$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/my-project/target/classes/com/research/wx/sdk/WXPayReport$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-project/target/classes/com/research/wx/sdk/WXPayReport$ReportInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/my-project/target/classes/com/research/wx/sdk/WXPayReport$ReportInfo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-project/target/classes/com/research/wx/sdk/WXPayReport.class" beforeDir="false" afterPath="$PROJECT_DIR$/my-project/target/classes/com/research/wx/sdk/WXPayReport.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-project/target/classes/com/research/wx/sdk/WXPayRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/my-project/target/classes/com/research/wx/sdk/WXPayRequest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-project/target/classes/com/research/wx/sdk/WXPayUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/my-project/target/classes/com/research/wx/sdk/WXPayUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-project/target/classes/com/research/wx/service/WxService.class" beforeDir="false" afterPath="$PROJECT_DIR$/my-project/target/classes/com/research/wx/service/WxService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-project/target/classes/com/research/wx/test/TestApacheHttpClient$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/my-project/target/classes/com/research/wx/test/TestApacheHttpClient$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-project/target/classes/com/research/wx/test/TestApacheHttpClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/my-project/target/classes/com/research/wx/test/TestApacheHttpClient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-project/target/classes/com/research/wx/test/TestWXPay.class" beforeDir="false" afterPath="$PROJECT_DIR$/my-project/target/classes/com/research/wx/test/TestWXPay.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-project/target/classes/com/research/wx/test/TestWXPayPerformance$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/my-project/target/classes/com/research/wx/test/TestWXPayPerformance$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-project/target/classes/com/research/wx/test/TestWXPayPerformance$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/my-project/target/classes/com/research/wx/test/TestWXPayPerformance$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-project/target/classes/com/research/wx/test/TestWXPayPerformance.class" beforeDir="false" afterPath="$PROJECT_DIR$/my-project/target/classes/com/research/wx/test/TestWXPayPerformance.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-project/target/classes/com/research/wx/test/WXPayDomainSimpleImpl$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/my-project/target/classes/com/research/wx/test/WXPayDomainSimpleImpl$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-project/target/classes/com/research/wx/test/WXPayDomainSimpleImpl$WxpayDomainHolder.class" beforeDir="false" afterPath="$PROJECT_DIR$/my-project/target/classes/com/research/wx/test/WXPayDomainSimpleImpl$WxpayDomainHolder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-project/target/classes/com/research/wx/test/WXPayDomainSimpleImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/my-project/target/classes/com/research/wx/test/WXPayDomainSimpleImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-project/target/classes/com/research/wx/util/PropertiesUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/my-project/target/classes/com/research/wx/util/PropertiesUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-project/target/classes/com/research/wx/util/RandomUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/my-project/target/classes/com/research/wx/util/RandomUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-project/target/classes/com/research/wx/util/SignUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/my-project/target/classes/com/research/wx/util/SignUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-project/target/classes/com/research/wx/util/XmlUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/my-project/target/classes/com/research/wx/util/XmlUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-project/target/classes/com/research/xmlToBean/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/my-project/target/classes/com/research/xmlToBean/Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-project/target/classes/com/research/xmlToBean/XMLUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/my-project/target/classes/com/research/xmlToBean/XMLUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springBoot/src/main/java/com/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/springBoot/src/main/java/com/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-mybatis/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-mybatis/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-mybatis/src/main/java/come" beforeDir="true" />
+      <change beforePath="$PROJECT_DIR$/springboot-mybatis/src/main/java/come/dao/UserInfoMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-mybatis/src/main/java/come/pojo/UserInfo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-mybatis/src/main/java/come/service/impl/UserServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-mybatis/src/main/java/come/springbootmybatisdemo/SpringbootMybatisDemoApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-mybatis/src/main/resources/generator/generatorConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-mybatis/src/main/resources/generator/generatorConfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-mybatis/src/main/resources/mapping/UserInfoMapper.xml" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/my-project/target/" />
+    <ignored path="$PROJECT_DIR$/activemq/target/" />
+    <ignored path="$PROJECT_DIR$/shiro-web/target/" />
+    <ignored path="$PROJECT_DIR$/zookeeper/WebRoot/WEB-INF/classes/" />
+    <ignored path="$PROJECT_DIR$/zookeeper/target/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/springBoot/target/" />
+    <ignored path="$PROJECT_DIR$/springboot-mybatis/target/" />
+    <ignored path="$PROJECT_DIR$/springboot-mybatis-mysql/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-15365739">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.13" value="1" />
+          <entry key="project.opened" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="java" value="32" />
+          <entry key="xml" value="13" />
+          <entry key="yml" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="32" />
+          <entry key="XML" value="13" />
+          <entry key="YAML" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="66" />
+          <entry key="txt" value="5" />
+          <entry key="xml" value="36" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="66" />
+          <entry key="PLAIN_TEXT" value="5" />
+          <entry key="XML" value="36" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Downloads/javaWeb-project-master/javaWeb-project-master/springboot-mybatis-demo/src/main/java/com/ocean/service/IUserService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="76">
+              <caret line="4" selection-start-line="4" selection-end-line="6" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/springboot-mybatis/src/main/resources/generator/generatorConfig.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="15" column="25" lean-forward="true" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/springboot-mybatis/src/main/java/com/controller/UserController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="361">
+              <caret line="19" column="39" selection-start-line="19" selection-start-column="39" selection-end-line="19" selection-end-column="39" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/springboot-mybatis/src/main/java/com/dao/UserInfoMapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="418">
+              <caret line="22" column="9" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/springboot-mybatis/src/main/java/com/service/IUserService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="95">
+              <caret line="5" column="9" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/springboot-mybatis/src/main/java/com/service/impl/UserServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="304">
+              <caret line="17" column="30" lean-forward="true" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Downloads/javaWeb-project-master/javaWeb-project-master/springboot-mybatis-demo/src/main/java/com/ocean/service/impl/UserServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="15" selection-start-line="15" selection-end-line="18" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/springboot-mybatis/src/main/resources/mapping/UserInfoMapper.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1140">
+              <caret line="60" column="27" selection-start-line="60" selection-start-column="27" selection-end-line="60" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/springboot-mybatis/src/main/java/com/springbootmybatisdemo/SpringbootMybatisDemoApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="247">
+              <caret line="22" selection-start-line="22" selection-end-line="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>liujinliang</find>
+      <find>liujinlia</find>
+      <find>main.java.</find>
+      <find>ocean</find>
+    </findStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/shiro-web/src/main/java/liujinliang/realm/CustomRealm.java" />
+        <option value="$PROJECT_DIR$/shiro-web/src/main/java/liujinliang/dao/UserDao.java" />
+        <option value="$PROJECT_DIR$/zookeeper/src/main/com/zookeeper/ServiceAProvider.java" />
+        <option value="$PROJECT_DIR$/zookeeper/src/main/com/zookeeper/ServiceBProvider.java" />
+        <option value="$PROJECT_DIR$/zookeeper/src/main/com/zookeeper/ServiceConsumer.java" />
+        <option value="$PROJECT_DIR$/zookeeper/src/main/com/zookeeper/ServiceCProvider.java" />
+        <option value="$PROJECT_DIR$/zookeeper/src/main/com/zookeeper/ZkNodeOperation.java" />
+        <option value="$PROJECT_DIR$/shiro-web/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/shiro-web/src/main/java/com/dao/impl/UserDaoImpl.java" />
+        <option value="$PROJECT_DIR$/shiro-web/src/main/java/com/realm/CustomRealm.java" />
+        <option value="$PROJECT_DIR$/shiro-web/src/main/resource/spring-mvc.xml" />
+        <option value="$PROJECT_DIR$/shiro-web/src/main/java/com/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/shiro-web/pom.xml" />
+        <option value="$PROJECT_DIR$/shiro-web/src/main/resource/spring.xml" />
+        <option value="$PROJECT_DIR$/shiro-web/src/main/resource/spring-dao.xml" />
+        <option value="$PROJECT_DIR$/my-project/src/main/java/com/research/shiro/JdbcRealmTest.java" />
+        <option value="$PROJECT_DIR$/shiro-web/src/main/java/com/filter/RolesOrFilter.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-mybatis-mysql/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-mybatis-mysql/src/main/java/service/IUserService.java" />
+        <option value="$PROJECT_DIR$/springboot-mybatis-mysql/src/main/java/come/service/IUserService.java" />
+        <option value="$PROJECT_DIR$/springboot-mybatis-mysql/src/main/java/come/application/SpringbootMybatisDemoApplication.java" />
+        <option value="$PROJECT_DIR$/springBoot/pom.xml" />
+        <option value="$PROJECT_DIR$/springBoot/src/main/java/com/Application.java" />
+        <option value="$PROJECT_DIR$/springboot-mybatis/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-mybatis/src/main/java/come/springbootmybatisdemo/SpringbootMybatisDemoApplication.java" />
+        <option value="$USER_HOME$/Downloads/javaWeb-project-master/javaWeb-project-master/springboot-mybatis-demo/src/main/java/com/ocean/dao/UserInfoMapper.java" />
+        <option value="$PROJECT_DIR$/springboot-mybatis/src/main/java/come/pojo/UserInfo.java" />
+        <option value="$PROJECT_DIR$/springboot-mybatis/src/main/java/come/service/impl/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/springboot-mybatis/src/main/java/come/dao/UserInfoMapper.java" />
+        <option value="$PROJECT_DIR$/springboot-mybatis/src/main/java/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/springboot-mybatis/src/main/java/com/dao/UserInfoMapper.java" />
+        <option value="$PROJECT_DIR$/springboot-mybatis/src/main/java/com/service/impl/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/springboot-mybatis/src/main/java/com/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/springboot-mybatis/src/main/resources/mapping/UserInfoMapper.xml" />
+        <option value="$USER_HOME$/Downloads/javaWeb-project-master/javaWeb-project-master/springboot-mybatis-demo/src/main/resources/generator/generatorConfig.xml" />
+        <option value="$PROJECT_DIR$/springboot-mybatis/src/main/resources/generator/generatorConfig.xml" />
+        <option value="$PROJECT_DIR$/springboot-mybatis/src/main/java/com/springbootmybatisdemo/SpringbootMybatisDemoApplication.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\maven\mvnSpace" />
+        <option name="mavenHome" value="D:/maven/maven" />
+        <option name="userSettingsFile" value="D:\maven\maven\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="empire" type="b2602c69:ProjectViewProjectNode" />
+              <item name="empire" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="empire" type="b2602c69:ProjectViewProjectNode" />
+              <item name="empire" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-mybatis" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="empire" type="b2602c69:ProjectViewProjectNode" />
+              <item name="empire" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-mybatis" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="empire" type="b2602c69:ProjectViewProjectNode" />
+              <item name="empire" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-mybatis" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="empire" type="b2602c69:ProjectViewProjectNode" />
+              <item name="empire" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-mybatis" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="empire" type="b2602c69:ProjectViewProjectNode" />
+              <item name="empire" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-mybatis" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="empire" type="b2602c69:ProjectViewProjectNode" />
+              <item name="empire" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-mybatis" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="empire" type="b2602c69:ProjectViewProjectNode" />
+              <item name="empire" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-mybatis" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="empire" type="b2602c69:ProjectViewProjectNode" />
+              <item name="empire" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-mybatis" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="empire" type="b2602c69:ProjectViewProjectNode" />
+              <item name="empire" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-mybatis" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="springbootmybatisdemo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="empire" type="b2602c69:ProjectViewProjectNode" />
+              <item name="empire" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-mybatis" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="empire" type="b2602c69:ProjectViewProjectNode" />
+              <item name="empire" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-mybatis" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="generator" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="empire" type="b2602c69:ProjectViewProjectNode" />
+              <item name="empire" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-mybatis" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="mapping" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelOrder2" value="2" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RequestMappingsPanelWidth2" value="75" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540582774355" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="last_opened_file_path" value="D:/eclipse-apache-tomcat-7.0.65/lib/websocket-api.jar!/" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\ideaWorkSpace\empire\springboot-mybatis\src\main\resources\mapping" />
+      <recent name="D:\ideaWorkSpace\empire\springboot-mybatis\src\main\java" />
+      <recent name="D:\ideaWorkSpace\empire\springboot-mybatis-mysql\src\main\resources" />
+      <recent name="D:\ideaWorkSpace\empire\springboot-mybatis-mysql\src\main\java" />
+      <recent name="D:\ideaWorkSpace\empire\shiro-web\src\main\resource" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.Application">
+    <configuration name="SpringbootMybatisDemoApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="come.springbootmybatisdemo.SpringbootMybatisDemoApplication" />
+      <module name="springboot-mybatis" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="come.springbootmybatisdemo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="generator" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="mybatis-generator:generate" />
+                <option value="-e" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/springboot-mybatis" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springBoot" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringbootMybatisDemoApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="springboot-mybatis" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.springbootmybatisdemo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.springbootmybatisdemo.SpringbootMybatisDemoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringbootMybatisDemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springboot-mybatis" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="come.springbootmybatisdemo.SpringbootMybatisDemoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringbootMybatisMysqlApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springboot-mybatis-mysql" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.springbootmybatismysql.SpringbootMybatisMysqlApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="demo" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="demo" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
+      <deployment>
+        <artifact name="my-project:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_empire" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="52986" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="my-project:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <configuration name="shiro" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 7.0.82" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="C:\jdk1.7.0_79\jre">
+      <option name="BROWSER_ID" value="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" />
+      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
+      <deployment>
+        <artifact name="shiro-web:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_empire_2" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="58640" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="shiro-web:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Maven.generator" />
+      <item itemvalue="Spring Boot.Application" />
+      <item itemvalue="Spring Boot.SpringbootMybatisDemoApplication" />
+      <item itemvalue="Spring Boot.SpringbootMybatisMysqlApplication" />
+      <item itemvalue="Tomcat Server.shiro" />
+      <item itemvalue="Tomcat Server.demo" />
+      <item itemvalue="Application.SpringbootMybatisDemoApplication" />
+      <item itemvalue="Spring Boot.SpringbootMybatisDemoApplication (1)" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.SpringbootMybatisDemoApplication (1)" />
+        <item itemvalue="Application.SpringbootMybatisDemoApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration" cleanupOnStartRun="true">
+    <configuration>C:\Users\Administrator\AppData\Roaming\Subversion</configuration>
+    <supportedVersion>125</supportedVersion>
+  </component>
+  <component name="SvnFileUrlMappingImpl">
+    <option name="myMappingRoots">
+      <list>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="D:\ideaWorkSpace\empire" />
+          <option name="myCopyRoot" value="D:\ideaWorkSpace\empire" />
+        </SvnCopyRootSimple>
+      </list>
+    </option>
+    <option name="myMoreRealMappingRoots">
+      <list>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="D:\ideaWorkSpace\empire" />
+          <option name="myCopyRoot" value="D:\ideaWorkSpace\empire" />
+        </SvnCopyRootSimple>
+      </list>
+    </option>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d21e3d3f-4ace-46a6-bfa8-2bd9ba42830a" name="Default" comment="" />
+      <created>1535335338024</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1535335338024</updated>
+      <workItem from="1535335341163" duration="301000" />
+      <workItem from="1535335673565" duration="678000" />
+      <workItem from="1535336454740" duration="155000" />
+      <workItem from="1535336620325" duration="397000" />
+      <workItem from="1535337057006" duration="1915000" />
+      <workItem from="1535339014193" duration="7191000" />
+      <workItem from="1540577663196" duration="543000" />
+      <workItem from="1540578364876" duration="4146000" />
+    </task>
+    <task id="LOCAL-00001">
+      <created>1535339089038</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1535339089039</updated>
+    </task>
+    <task id="LOCAL-00002">
+      <created>1535339173389</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1535339173389</updated>
+    </task>
+    <task id="LOCAL-00003">
+      <created>1535339217964</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1535339217964</updated>
+    </task>
+    <task id="LOCAL-00004">
+      <created>1535339300224</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1535339300224</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="15326000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18333334" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.17161717" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3037037" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49946696" weight="0.21297297" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50053304" side_tool="true" weight="0.4" />
+      <window_info anchor="bottom" id="Java Enterprise" order="9" />
+      <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="11" />
+      <window_info anchor="bottom" id="Application Servers" order="12" />
+      <window_info anchor="bottom" id="Spring" order="13" />
+      <window_info anchor="bottom" id="Messages" order="14" weight="0.2825397" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Maven Projects" order="5" weight="0.234375" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="JSF" order="9" />
+      <window_info anchor="right" id="Bean Validation" order="10" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="LAST_COMMIT_MESSAGE" value="" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/shiro-web/src/main/java/com/realm/CustomRealm.java</url>
+          <line>80</line>
+          <properties />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/shiro-web/src/main/java/com/controller/UserController.java</url>
+          <line>28</line>
+          <properties />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/shiro-web/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="563">
+          <caret line="96" selection-start-line="96" selection-end-line="96" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shiro-web/src/main/resource/数据库脚本.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1019">
+          <caret line="61" column="30" selection-start-line="61" selection-start-column="30" selection-end-line="61" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-project/src/main/resource/config/db/jdbc.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" column="93" lean-forward="true" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="93" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shiro-web/src/main/java/com/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shiro-web/src/main/resource/spring-mvc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="12" column="4" lean-forward="true" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shiro-web/src/main/resource/spring-dao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="12" column="64" lean-forward="true" selection-start-line="12" selection-start-column="64" selection-end-line="12" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shiro-web/src/main/java/com/dao/UserDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shiro-web/src/main/java/com/realm/CustomRealm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="55" column="49" lean-forward="true" selection-start-line="55" selection-start-column="49" selection-end-line="55" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shiro-web/src/main/java/com/filter/RolesOrFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="552">
+          <caret line="28" column="13" lean-forward="true" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shiro-web/src/main/resource/spring.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-project/src/main/java/com/research/shiro/realm/CustomRealm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="608">
+          <caret line="44" column="24" selection-end-line="82" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-project/src/main/java/com/research/shiro/AuthenticationTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-project/src/main/java/com/research/shiro/AuthorizationTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="13" column="23" selection-end-line="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-project/src/main/java/com/research/shiro/CustomRealTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="760">
+          <caret line="47" column="1" selection-start-line="47" selection-start-column="1" selection-end-line="47" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-project/src/main/java/com/research/shiro/IniRealmTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-project/src/main/java/com/research/shiro/JdbcRealmTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="19" column="9" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-mybatis-mysql/src/main/java/come/service/impl/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-mybatis-mysql/src/main/java/come/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-mybatis-mysql/src/main/java/come/dao/UserInfoMapper.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-mybatis-mysql/src/main/java/come/pojo/UserInfo.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-mybatis-mysql/src/main/java/come/service/IUserService.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-mybatis-mysql/src/main/resources/generator/generatorConfig.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-mybatis-mysql/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-mybatis-mysql/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1406">
+          <caret line="74" selection-start-line="74" selection-end-line="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-mybatis-mysql/src/main/java/come/application/SpringbootMybatisDemoApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="13" column="34" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springBoot/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2432">
+          <caret line="128" selection-start-line="128" selection-end-line="128" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springBoot/src/main/java/com/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-mybatis/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="271">
+          <caret line="66" column="84" selection-start-line="66" selection-start-column="84" selection-end-line="66" selection-end-column="84" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-project/src/main/java/com/research/netty/WebSocketChatRoomPrimordial/Socket.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-mybatis/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="32" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/javaWeb-project-master/javaWeb-project-master/springboot-mybatis-demo/src/main/java/com/ocean/dao/UserInfoMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="21" selection-start-line="21" selection-end-line="22" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/javaWeb-project-master/javaWeb-project-master/springboot-mybatis-demo/src/main/java/com/ocean/pojo/UserInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1652" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-mybatis/src/main/java/come/service/IUserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-mybatis/src/main/java/come/service/impl/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="29" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#429#430#0" expanded="true" />
+            <element signature="e#473#474#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-mybatis/src/main/java/come/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="15" column="36" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-mybatis/src/main/java/come/pojo/UserInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="23" lean-forward="true" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-mybatis/src/main/java/come/dao/UserInfoMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-mybatis/src/main/java/come/springbootmybatisdemo/SpringbootMybatisDemoApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="27" column="37" selection-start-line="27" selection-start-column="37" selection-end-line="27" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-mybatis/src/come/dao/UserInfoMapper.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-mybatis/src/main/java/com/pojo/UserInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-mybatis/src/main/java/com/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="19" column="39" selection-start-line="19" selection-start-column="39" selection-end-line="19" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-mybatis/src/main/java/com/service/IUserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="9" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-mybatis/src/main/java/com/service/impl/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="17" column="30" lean-forward="true" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-mybatis/src/main/java/com/dao/UserInfoMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="22" column="9" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/javaWeb-project-master/javaWeb-project-master/springboot-mybatis-demo/src/main/java/com/ocean/service/IUserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" selection-start-line="4" selection-end-line="6" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/javaWeb-project-master/javaWeb-project-master/springboot-mybatis-demo/src/main/java/com/ocean/service/impl/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="15" selection-start-line="15" selection-end-line="18" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-mybatis/src/main/resources/mapping/UserInfoMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1140">
+          <caret line="60" column="27" selection-start-line="60" selection-start-column="27" selection-end-line="60" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/javaWeb-project-master/javaWeb-project-master/springboot-mybatis-demo/src/main/resources/generator/generatorConfig.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="20" column="79" lean-forward="true" selection-end-line="35" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-mybatis/src/main/resources/generator/generatorConfig.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="15" column="25" lean-forward="true" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-mybatis/src/main/java/com/springbootmybatisdemo/SpringbootMybatisDemoApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>my-project:war exploded</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>my-project</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>websocket-api</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

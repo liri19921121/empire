@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.2.xsd">
+
+	<import resource="spring-dao.xml" />
+	<!--配置扫描类 -->
+	<context:component-scan base-package="com"/>
+
+	<!-- 拦截器-->
+	<bean id="shiroFilter" class="org.apache.shiro.spring.web.ShiroFilterFactoryBean">
+		<!-- 配置securityManager对象-->
+		<property name="securityManager" ref="securityManager"></property>
+		<!-- 登录页面-->
+		<property name="loginUrl" value="login.html"></property>
+		<!-- 未认证跳转页面-->
+		<property name="unauthorizedUrl" value="403.html"></property>
+		<!-- 过滤器链  anon为不需要验证，authc表示需要验证，从上往下匹配 -->
+		<property name="filterChainDefinitions">
+			<value>
+				/login.html = anon
+				/test = anon
+				/test.do = anon
+				/subLogin = anon
+				<!--配置角色可访问-->
+				<!--/testRoles = roles["admin1"]
+				/testRoles1 = roles["admin","admin1"]
+				/testPerms = perms["user:delete","user:update"]-->
+				<!-- 自定义角色过滤器-->
+				/testRoles = rolesOr["admin","admin1"]
+				/* = authc
+			</value>
+		</property>
+		<!-- 自定义角色过滤器-->
+		<property name="filters">
+			<map>
+				<entry key="rolesOr" value-ref="rolesOrFilter" />
+			</map>
+		</property>
+	</bean>
+
+	<!-- 自定义角色过滤器-->
+	<bean id="rolesOrFilter" class="com.filter.RolesOrFilter" />
+
+	<!-- 创建SecurityManager对象-->
+	<bean id="securityManager" class="org.apache.shiro.web.mgt.DefaultWebSecurityManager">
+		<!-- 自定义realm放入容器中-->
+		<property name="realm" ref="realm"></property>
+	</bean>
+
+	<!-- 自定义realm -->
+	<bean id="realm" class="com.realm.CustomRealm">
+		<property name="credentialsMatcher" ref="credentialsMatcher" ></property>
+	</bean>
+
+	<!-- 加密算法 -->
+	<bean id="credentialsMatcher" class="org.apache.shiro.authc.credential.HashedCredentialsMatcher">
+		<!-- 使用md5加密-->
+		<property name="hashAlgorithmName" value="md5" />
+		<!-- 加密一次-->
+		<property name="hashIterations" value="1" />
+	</bean>
+
+</beans>

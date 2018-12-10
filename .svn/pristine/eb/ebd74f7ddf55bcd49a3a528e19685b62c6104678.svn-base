@@ -1,0 +1,17 @@
+jdbc.driverClassName=com.mysql.jdbc.Driver
+hibernate.dialect=org.hibernate.dialect.MySQL5Dialect
+hibernate.show_sql=true
+hibernate.hbm2ddl.auto=none
+#jdbc.url=jdbc\:mysql\://120.76.229.221\:13306/qianyan?useUnicode\=true&characterEncoding\=UTF-8
+jdbc.url=jdbc\:mysql\://39.106.63.239\:13306/dbgirl?useUnicode\=true&characterEncoding\=UTF-8
+#jdbc.url=jdbc:mysql://localhost:3306/qianyan?useUnicode\=true&characterEncoding\=UTF-8
+#jdbc.url=jdbc:mysql://120.27.40.83:3306/activitytest?characterEncoding=UTF-8&amp;zeroDateTimeBehavior=convertToNull 
+jdbc.username=root
+#jdbc.password=QYJR4mysql
+#jdbc.password=sql199612!
+jdbc.password=riLI@19921121
+jdbc.initialPoolSize=10
+jdbc.minPoolSize=10
+jdbc.maxPoolSize=100
+jdbc.maxIdleTime=20
+jdbc.acquireIncrement=20   

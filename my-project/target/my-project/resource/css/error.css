@@ -1,0 +1,57 @@
+﻿@charset "utf-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    position:relative;
+}
+
+body.fourZF {
+    background:url(/resource/img/error/404_bg.jpg) no-repeat center bottom;
+    background-size:cover; 
+}
+body.fiveH {
+    background:url(/resource/img/error/505_bg.jpg) no-repeat center bottom;
+    background-size:cover;
+}
+#error .info {
+    width:400px;
+    height:320px;
+    position:absolute;
+    top:180px;
+    left:50%;
+    margin-left:-200px;
+}
+#error .info strong {
+    font-size:199px;
+    color:#eac499;
+    display:block;
+    margin:auto;
+    text-align:center;
+    line-height:230px;
+}
+#error .info p {
+    color:#d69b5d;
+    font-size:30px;
+    text-align:center;
+}
+#error .info span {
+    font-size:18px;
+    color:#d69b5d;
+    text-align:center;
+    display:block;
+    margin:auto;
+}
+#error .info span i {
+    color:#d96c53;
+    font-size:20px;
+}
+#error .info span a {
+    color:#80a6e0;
+    outline:none;
+}
+
+

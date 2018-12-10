@@ -1,0 +1,13 @@
+server:
+  port: 8082
+
+spring:
+  datasource:
+    name: test
+    url: jdbc:mysql://39.106.63.239:13306/dbgirl
+    username: root
+    password: riLI@19921121
+    driver-class-name: com.mysql.jdbc.Driver
+mybatis:
+  mapper-locations: classpath:mapping/*Mapper.xml
+  type-aliases-package: com.pojo

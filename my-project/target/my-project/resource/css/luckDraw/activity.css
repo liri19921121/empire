@@ -1,0 +1,676 @@
+.wrapper{
+	min-width: 1200px;
+	max-width: 1920px;
+	margin: 0 auto;
+}
+.w1000{
+	width: 1000px;
+}
+.mainCon{
+	margin: 0 auto;
+}
+/*第一屏开始*/
+.firstScreen .topBanner{
+	height: 764px;
+	width: 100%;
+	background: url(/resource/img/luckDraw/banner.jpg) center top no-repeat;
+}
+.firstScreen .botTxt{
+	height: 540px;
+	width: 100%;
+	background: url(/resource/img/luckDraw/bg-1.jpg) center top no-repeat;
+}
+.firstScreen .botTxt .title1 img{
+	display: block;
+	width: 633px;
+	height: 108px;
+	margin: 0px auto;
+	margin-bottom: 50px;
+}
+.firstScreen .botTxt .strategy{
+	margin: 0 auto;
+	height: 270px;
+	background: url(/resource/img/luckDraw/Box-1.png);
+	text-align: center;
+}
+.firstScreen .botTxt .strategy p{
+	font-size: 24px;
+	height: 24px;
+	line-height: 24px;
+	font-weight: bold;
+	color: #802f13;
+	padding-top: 90px;
+}
+.firstScreen .botTxt .strategy p span{
+	font-size: 22px;
+	font-weight: normal;
+	color: #fb4247;
+}
+.firstScreen .botTxt .strategy a{
+	display: block;
+	background: url(/resource/img/luckDraw/Button-1.png);
+	width: 234px;
+	height: 104px;
+	margin: 78px auto;
+	font-size: 30px;
+	color: white;
+	line-height: 55px;
+	font-weight:bold;
+}
+/*第一屏结束*/
+/*第二屏开始*/
+.secondScreen{
+	background: url(/resource/img/luckDraw/bg-2-2.jpg) center top no-repeat;
+	height: 1364px;
+	width: 100%;
+}
+.secondScreenNologin{
+	background: url(/resource/img/luckDraw/bg-2-1.jpg) center top no-repeat;
+	height: 1157px;
+	width: 100%;
+}
+.title2{
+	width: 1000px;
+	height: 108px;
+	text-align: center;
+	margin: 0 auto;
+	padding-top: 50px;
+}
+.secondScreen .actCon{
+	background: url(/resource/img/luckDraw/bg-2-1-huise-2.png);
+	width: 1118px;
+	height: 1020px;
+	margin: 0 auto;
+	margin-top: 120px;
+}
+.secondScreenNologin .actCon p.loginTip{
+	font-size: 16px;
+	color: #802f13;
+	text-align: right;
+	margin-top: 15px;
+	letter-spacing: 2px;
+}
+.secondScreenNologin .actCon p.loginTip a{
+	color: black;
+	text-decoration: underline;
+	font-weight:bold;
+}
+.secondScreenNologin .actCon{
+	background: url(/resource/img/luckDraw/bg-2-1-huise.png);
+	width: 1118px;
+	height: 843px;
+	margin: 0px auto;
+	margin-top:90px;
+}
+.secondScreenNologin .actCon .mainCon #lottery .lottery-unit-0{
+	background: url(/resource/img/luckDraw/Color-biocks-1.jpg);	
+}
+.secondScreenNologin .actCon .mainCon #lottery .lottery-unit-1{
+	background: url(/resource/img/luckDraw/Color-biocks-2.jpg);
+}
+.secondScreenNologin .actCon .mainCon #lottery .lottery-unit-2{
+	background: url(/resource/img/luckDraw/Color-biocks-3.jpg);
+}
+.secondScreenNologin .actCon .mainCon #lottery .lottery-unit-3{
+	background: url(/resource/img/luckDraw/Color-biocks-5.jpg);
+}
+.secondScreenNologin .actCon .mainCon #lottery .lottery-unit-4{
+	background: url(/resource/img/luckDraw/Color-biocks-7.jpg);
+}
+.secondScreenNologin .actCon .mainCon #lottery .lottery-unit-5{
+	background: url(/resource/img/luckDraw/Color-biocks-10.jpg);
+}
+.secondScreenNologin .actCon .mainCon #lottery .lottery-unit-6{
+	background: url(/resource/img/luckDraw/Color-biocks-9.jpg);
+}
+.secondScreenNologin .actCon .mainCon #lottery .lottery-unit-7{
+	background: url(/resource/img/luckDraw/Color-biocks-8.jpg);
+}
+.secondScreenNologin .actCon .mainCon #lottery .lottery-unit-8{
+	background: url(/resource/img/luckDraw/Color-biocks-6.jpg);
+}
+.secondScreenNologin .actCon .mainCon #lottery .lottery-unit-9{
+	background: url(/resource/img/luckDraw/Color-biocks-4.jpg);
+}
+.actCon .mainCon{
+	padding-top: 30px;
+}
+.actCon .goldBox ul{
+	width: 708px;
+	margin: 0 auto;
+}
+.actCon .goldBox ul li{
+	float: left;
+	background: url(/resource/img/luckDraw/Circle.png);
+	width: 174px;
+	height: 174px;
+}
+.actCon .goldBox ul li.listCen{
+	margin: 0 93px;
+}
+.actCon .goldBox ul li p{
+	width: 110px;
+	color: #802f13;
+	margin-left: 34px;
+	font-weight: bold;
+}
+.actCon .goldBox ul li p.txtTit{
+	text-align: center;
+	font-size: 18px;
+	margin-top: 62px;
+}
+.actCon .goldBox ul li p.nums{
+	font-size: 16px;
+	margin-top: 22px;
+}
+.actCon .goldBox ul li p.nums span{
+	font-size: 18px;
+	color: #f02b3c;
+	display: inline-block;
+	width: 90px;
+	border-bottom: 1px solid #802F13;
+	text-align: center;
+	margin-left: 4px;
+}
+.actCon .strategy{
+	background: url(/resource/img/luckDraw/Box-2.png);
+	height: 221px;
+	margin-top: 38px;
+	position: relative;
+	/*text-align: center;*/
+}
+.actCon .strategy i{
+	background: url(/resource/img/luckDraw/icon-2.png);
+	height: 34px;
+	width: 33px;
+	display: block;
+	position: absolute;
+	left: 40px;
+	top: 68px;
+}
+.actCon .strategy div.actRule{
+	font-size: 20px;
+	margin: 0 auto;
+	color: #802f13;
+	text-indent: 95px;
+	font-weight: bold;
+}
+.actCon .strategy div.actRule p{
+	line-height: 1.5;
+}
+.actCon .strategy div.actRule p span{
+	color: #f02b3c;
+}
+.actCon .dial .leftLot{
+	margin-top: 68px;
+	float: left;
+}
+.actCon .dial .rightRank{
+	margin-top: 26px;
+	background: url(/resource/img/luckDraw/List.png);
+	width: 294px;
+	height: 482px;
+	float: right;
+}
+/*转盘样式开始*/
+#lottery{
+	background: url(/resource/img/luckDraw/bg-3.png);
+	width: 693px;
+	height: 437px;	
+}
+#lottery table td.active div.mask{
+ 	display: block;
+}
+#lottery .lottery-unit{
+	width: 207px;
+	height: 91px;
+	box-sizing: border-box;
+	position: relative;
+}
+#lottery .lottery-unit img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+#lottery .lottery-unit div.mask{
+	display: none;
+	width:100%;
+    height:100%;
+    position:absolute;
+    left:0;
+    top:0;
+    background:url(/resource/img/luckDraw/mask-2.png);
+}
+#play div{
+	margin: 0 auto;
+	width: 150px;
+	border-bottom: solid #FF5E6C 2px;
+	text-align: center;
+}
+#play div p{
+	height: 21px;
+	line-height: 21px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+#play div span{
+	cursor: pointer;
+	width: 21px;
+	height: 21px;
+	display: inline-block;
+	vertical-align: middle;
+}
+#play div span.add{
+	background: url(/resource/img/luckDraw/add.png);
+}
+#play div span.cut{
+	background: url(/resource/img/luckDraw/-.png);
+}
+#play div input.inputNum{
+	width: 63px;
+	height: 21px;
+	line-height: 21px;
+	border: none;
+	background: url(/resource/img/luckDraw/Input-box.png);
+	text-align: center;
+	outline: 0;
+	vertical-align: middle;
+}
+#play div a{
+	display: block;
+	background: url(/resource/img/luckDraw/Button-2.png);
+	width: 133px;
+	height: 43px;
+	line-height: 43px;
+	color: #FFFFFF;
+	margin: 7px auto;
+}
+/* 阻止转圈 */
+#play_stop div{
+	margin: 0 auto;
+	width: 150px;
+	border-bottom: solid #FF5E6C 2px;
+	text-align: center;
+}
+#play_stop div p{
+	height: 21px;
+	line-height: 21px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+#play_stop div span{
+	cursor: pointer;
+	width: 21px;
+	height: 21px;
+	display: inline-block;
+	vertical-align: middle;
+}
+#play_stop div span.add{
+	background: url(/resource/img/luckDraw/add.png);
+}
+#play_stop div span.cut{
+	background: url(/resource/img/luckDraw/-.png);
+}
+#play_stop div input.inputNum{
+	width: 63px;
+	height: 21px;
+	line-height: 21px;
+	border: none;
+	background: url(/resource/img/luckDraw/Input-box.png);
+	text-align: center;
+	outline: 0;
+	vertical-align: middle;
+}
+#play_stop div a{
+	display: block;
+	background: url(/resource/img/luckDraw/Button-2.png);
+	width: 133px;
+	height: 43px;
+	line-height: 43px;
+	color: #FFFFFF;
+	margin: 7px auto;
+}
+#playOnce a{
+	display: block;
+	background: url(/resource/img/luckDraw/Button-2.png);
+	width: 133px;
+	height: 43px;
+	line-height: 43px;
+	color: #FFFFFF;
+	text-align: center;
+	margin: 0px auto;
+}
+#playOnce_noRun a{
+	display: block;
+	background: url(/resource/img/luckDraw/Button-2.png);
+	width: 133px;
+	height: 43px;
+	line-height: 43px;
+	color: #FFFFFF;
+	text-align: center;
+	margin: 0px auto;
+}
+/*转盘样式结束*/
+/*排行榜*/
+#rank{
+	margin: 72px auto;
+	color: #802f13;
+	width: 254px;
+}
+#rank th{
+	font-size: 15px;
+}
+#rank tr{
+	font-size: 16px;
+	text-align: center;
+	height: 36px;
+	line-height: 36px;
+}
+#rank tr .rankNum{
+	font-size: 15px;
+}
+
+/*第二屏结束*/
+/*第三屛开始*/
+.thirdScreen{
+	background: url(/resource/img/luckDraw/Bg-4.jpg) center top no-repeat;
+	width: 100%;
+	height: 1200px;
+}
+.thirdScreen .mainCon .title3{
+	position: relative;
+	width: 1000px;
+	height: 108px;
+	margin: 0 auto;
+	text-align: center;
+	padding-top: 50px;
+}
+.thirdScreen .mainCon .title3 p.myGolds{
+	background: url(/resource/img/luckDraw/purse.png);
+	width: 157px;
+	height: 165px;
+	position: absolute;
+	right:0;
+	top:48px;
+	color: #f02b3c;
+	font-size:16px ;
+	text-align: center;
+	line-height:165px;
+	font-weight:bold;
+}
+.thirdScreen .mainCon .title3 p.myGolds span{
+	text-decoration: underline;
+	position: absolute;
+	top: 25px; 
+	left: 58px; 
+	display: inline-block; 
+	width: 50px;
+}
+.thirdScreen .mainCon .title3 p{
+	color: #ffe385;
+	font-size: 19px;
+	text-align: center;
+	margin-top: 10px;
+}
+#priceList ul.topUl{
+	height: 361px;
+	margin-top: 120px;
+}
+#priceList ul.topUl li{
+	width: 312px;	
+	height: 361px;
+	float: left;
+}
+#priceList ul.topUl li.listCen{
+	margin: 0 32px;
+}
+#priceList ul.botUl{
+	height: 454px;
+	margin-top: 40px;
+}
+#priceList ul.botUl li{
+	width: 483px;
+	height: 454px;
+}
+/*登陆前后两种状态尾数加-2为登陆后的状态*/
+#priceList ul li.price1{
+	background: url(/resource/img/luckDraw/prize-1.png);	
+}
+#priceList ul li.price1-2{
+	background: url(/resource/img/luckDraw/prize-1-2.png);
+}
+#priceList ul li.price2{
+	background: url(/resource/img/luckDraw/prize-2.png);	
+} 
+#priceList ul li.price2-2{
+	background: url(/resource/img/luckDraw/prize-2-2.png);
+}
+#priceList ul li.price3{
+	background: url(/resource/img/luckDraw/prize-3.png);	
+}
+#priceList ul li.price3-2{
+	background: url(/resource/img/luckDraw/prize-3-2.png);
+} 
+#priceList ul li.price4{
+	background: url(/resource/img/luckDraw/prize-4.png);	
+	float: left;
+} 
+#priceList ul li.price4-2{
+	background: url(/resource/img/luckDraw/prize-4-2.png);
+	float: left;
+}
+#priceList ul li.price5{
+	background: url(/resource/img/luckDraw/prize-5.png);
+	float: right;
+} 
+#priceList ul li.price5-2{
+	background: url(/resource/img/luckDraw/prize-5-2.png);
+	float: right;
+}
+/*第三屛结束*/
+/*第四屏开始*/
+.fourthScreen{
+	width: 100%;
+	height: 835px;
+	background: url(/resource/img/luckDraw/Bg-10.jpg) center top no-repeat;
+}
+.fourthScreen .mainCon .title4{
+	padding-top: 60px;
+}
+.fourthScreen .mainCon .activityRules{
+	height: 220px;
+	margin-top: 40px;
+}
+.fourthScreen .mainCon .activityRules ul li{
+	font-size: 22px;
+	font-weight: bold;
+	color: #802f13;
+	line-height: 1.5;
+}
+.fourthScreen .mainCon a.loginBtn{
+	display: block;
+	background: url(/resource/img/luckDraw/Button-1.png);
+	width: 234px;
+	height: 104px;
+	font-size: 30px;
+	color: #FFFFFF;
+	text-align: center;
+	line-height: 55px;
+	margin: 20px auto;
+	font-weight:bold;
+}
+/*第四屏结束*/
+/*弹窗部分*/
+#overlay{
+	width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    opacity: 0.7;
+    background-color: rgb(0, 0, 0);
+    overflow: hidden;
+    display: none;
+}
+.slide{
+	position: fixed;
+	margin: auto;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	display: none;
+	z-index: 1001;
+	width: 441px;
+	height: 412px;
+}
+.slide p{
+	background: url(/resource/img/luckDraw/Close-button.png) top right no-repeat;
+	width: 100%;
+	height: 33px;
+	cursor: pointer;
+}
+.slide a{
+	display: block;
+	background: url(/resource/img/luckDraw/Red-button-1.png);
+	width: 175px;
+	height: 53px;
+	font-size: 23px;
+	text-align: center;
+	color: #FFFFFF;
+	line-height: 46px;
+	position: absolute;
+	top: 272px;
+	left: 138px;
+}
+.slide1{
+	background: url(/resource/img/luckDraw/Pop-ups-1.png);
+	width: 410px;
+	height: 421px;
+}
+.slide2{
+	background: url(/resource/img/luckDraw/Pop-ups-2.png);
+}
+.slide3{
+	background: url(/resource/img/luckDraw/Pop-ups-3.png);
+}
+.slide4{
+	background: url(/resource/img/luckDraw/Pop-ups-4.png);
+}
+.slide5{
+	background: url(/resource/img/luckDraw/Pop-ups-5.png);
+}
+.slide5_2{
+	background: url(/resource/img/luckDraw/Pop-ups-5.png);
+}
+.slide6{
+	background: url(/resource/img/luckDraw/Pop-ups-6.png);
+	width: 562px;
+	height: 527px;
+}
+.slide7{
+	background: url(/resource/img/luckDraw/Pop-ups-7.png);
+	width: 516px;
+	height: 580px;
+}
+.slide8{
+	background: url(/resource/img/luckDraw/Pop-ups-8.png);
+	width: 544px;
+	height: 484px;
+}
+.slide9{
+	background: url(/resource/img/luckDraw/Pop-ups-9.png);
+	width: 510px;
+	height: 475px;
+}
+.slide10{
+	background: url(/resource/img/luckDraw/Pop-ups-10.png);
+}
+.slide11{
+	background: url(/resource/img/luckDraw/Pop-ups-11.png);
+}
+.slide12{
+	background: url(/resource/img/luckDraw/Pop-ups-12.png);
+}
+/*第一个*/
+.slide1 span{
+	color: #ff3910;
+	position: absolute;
+	font-size:37px;
+	top: 110px;
+	right: 168px;
+	text-align: center;
+}
+.slide1 a{
+	top: 165px;
+	left: 125px;
+}
+/*第二,三，四基本一样*/
+/*第5个*/
+.slide5 a.yes{
+	background: url(/resource/img/luckDraw/Red-button-2.png);
+	width: 88px;
+	height: 47px;
+	left: 122px;
+	top: 272px;
+}
+.slide5 a.no{
+	background: url(/resource/img/luckDraw/Orange-button-2.png);
+	width: 88px;
+	height: 47px;
+	left: 250px;
+	top: 272px;
+}
+.slide5_2 a.yes{
+	background: url(/resource/img/luckDraw/Red-button-2.png);
+	width: 88px;
+	height: 47px;
+	left: 122px;
+	top: 272px;
+}
+.slide5_2 a.no{
+	background: url(/resource/img/luckDraw/Orange-button-2.png);
+	width: 88px;
+	height: 47px;
+	left: 250px;
+	top: 272px;
+}
+/*第六,七个*/
+.slide6 a,.slide7 a,.slide8 a,.slide9 a{
+	background: url(/resource/img/luckDraw/Orange-button-1.png);
+}
+.slide div.golden{
+	background: url(/resource/img/luckDraw/gold.png);
+	width: 121px;
+	height: 121px;
+	position: absolute;
+	top: 168px;
+	left: 160px;
+	font-size: 32px;
+	color: #FFFFFF;
+	line-height: 121px;
+	text-align: center;
+}
+.slide6 a{
+	top: 390px;
+	left: 135px;
+}
+.slide7 a{	
+	top: 480px;
+	left: 164px;
+}
+.slide7 div.golden{
+	top: 200px;
+	left: 125px;
+}
+/*第八,九个*/
+.slide8 a{
+	top: 310px;
+	left: 188px;
+}
+.slide9 a{
+	top: 340px;
+	left: 178px;
+}
+/*弹窗结束*/

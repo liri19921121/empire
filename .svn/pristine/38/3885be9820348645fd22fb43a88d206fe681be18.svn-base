@@ -1,0 +1,41 @@
+spring.application.name=lemenintl
+server.port=8082
+#datasource
+spring.datasource.url=jdbc:postgresql://www.dengshaobing.com/lemenintl
+#spring.datasource.url=jdbc:postgresql://localhost/lemenintl
+spring.datasource.username=postgres
+spring.datasource.password=Aa123456
+spring.datasource.driver-class-name=org.postgresql.Driver
+#connection pool
+spring.datasource.type=com.zaxxer.hikari.HikariDataSource
+#automatically create and drop tables
+spring.jpa.hibernate.ddl-auto=update
+spring.jpa.show-sql=true
+
+#pg启动报错解决
+#spring.jpa.properties.hibernate.dialect = org.hibernate.dialect.PostgreSQLDialect
+spring.jpa.properties.hibernate.temp.use_jdbc_metadata_defaults=false
+
+#应用代码日志级别
+logging.level.com.tom=DEBUG
+
+#微信小程序和公众号appid以及secret
+WeixinPlatform.AppID=wx2374955f33f20c4e
+WeixinPlatform.AppSecret=4ccd1a7da5bb27288ffca4d64687e08c
+
+#文件服务器地址
+fileStorage.retrive.prefix=https://www.dengshaobing.com/file_storage/${spring.application.name}/
+
+#文件服务器地址
+fileStorage.restore.prefix=/usr/share/nginx/html/file_storage/${spring.application.name}/
+
+token.secret=lemenintlsec123
+token.expiration=180000
+
+#img 压缩比例
+img.compress.quality=0.2
+
+sms.userid=101546
+sms.username=LMYLH
+sms.passwordMd5=7CFF5540C0BBA9C49EAECE8963161E9F
+

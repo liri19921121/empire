@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:amq="http://activemq.apache.org/schema/core"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://activemq.apache.org/schema/core http://activemq.apache.org/schema/core/activemq-core-5.8.0.xsd">
+
+	<!-- Activemq 连接工厂 -->
+	<bean id="activeMQConnectionFactory" class="org.apache.activemq.ActiveMQConnectionFactory">
+		<constructor-arg value="system1" />
+		<constructor-arg value="manager1" />
+		<constructor-arg value="failover:(tcp://192.168.42.129:61616)?timeout=2000" />
+	</bean>
+
+	<!-- ConnectionFactory 定义 -->
+	<bean id="connectionFactory"
+		class="org.springframework.jms.connection.CachingConnectionFactory">
+		<constructor-arg ref="activeMQConnectionFactory" />
+	</bean>
+
+	<!-- 目标队列定义，定义生产者生产query或者topic定义生产者生产query或者topic -->
+	<!-- 队列模式 -->
+	<bean id="destinationQueue" class="org.apache.activemq.command.ActiveMQQueue">
+	<!-- 生产者发送的队列自定义名字 -->
+		<constructor-arg index="0" value="test.activemq.queue" />
+	</bean>
+	<!-- 主题模式 -->
+	<bean id="destinationTopic" class="org.apache.activemq.command.ActiveMQTopic">
+		<constructor-arg index="0" value="test.activemq.topic" />
+	</bean>
+	
+	<!-- JmsTemplate 定义 -->
+	<bean id="jmsTemplate" class="org.springframework.jms.core.JmsTemplate">
+		<property name="connectionFactory" ref="connectionFactory" />
+		<property name="defaultDestination" ref="destinationQueue" />
+	</bean>
+
+	<!-- Queue发送消息的定义-->
+	<bean id="messageSenderQueue" class="activemq.publisher.MessageSenderQueue">
+		<constructor-arg index="0" ref="jmsTemplate" />
+		<constructor-arg index="1" ref="destinationQueue" />
+	</bean>
+	<!-- topic发送消息的定义-->
+	<bean id="messageSenderTopic" class="activemq.publisher.MessageSenderTopic">
+		<constructor-arg index="0" ref="jmsTemplate" />
+		<constructor-arg index="1" ref="destinationTopic" />
+	</bean>
+
+	<!-- 消息监听器 定义-->
+	<!-- 两个队列模式的监听器 -->
+	<bean id="messageReceiverQueue" class="activemq.consumer.MessageReceiverQueue"/>
+	<bean id="messageReceiverQueue2" class="activemq.consumer.MessageReceiverQueue2"/>
+	<bean class="org.springframework.jms.listener.SimpleMessageListenerContainer">
+		<property name="connectionFactory" ref="connectionFactory" />
+		<property name="destinationName" value="test.activemq.queue" />
+		<property name="messageListener" ref="messageReceiverQueue" />
+		<!-- <property name="targetMethod" value="run1"></property>执行的方法 -->
+	</bean>
+	<bean class="org.springframework.jms.listener.SimpleMessageListenerContainer">
+		<property name="connectionFactory" ref="connectionFactory" />
+		<property name="destinationName" value="test.activemq.queue" />
+		<property name="messageListener" ref="messageReceiverQueue2" />
+		<!-- <property name="targetMethod" value="run2"></property>执行的方法 -->
+	</bean>
+	
+
+    <!-- 两个主题模式的监听器 --> 
+    <bean id="messageReceiverTopic" class="activemq.consumer.MessageReceiverTopic"/>
+    <bean id="messageReceiverTopic2" class="activemq.consumer.MessageReceiverTopic2"/>
+    <bean  class="org.springframework.jms.listener.SimpleMessageListenerContainer">
+        <property name="connectionFactory" ref="connectionFactory" />
+        <property name="destination" ref="destinationTopic" />
+        <property name="messageListener" ref="messageReceiverTopic" />
+    </bean> 
+    <bean  class="org.springframework.jms.listener.SimpleMessageListenerContainer">
+        <property name="connectionFactory" ref="connectionFactory" />
+        <property name="destination" ref="destinationTopic" />
+        <property name="messageListener" ref="messageReceiverTopic2" />
+    </bean>  
+	
+	
+	
+
+</beans>
