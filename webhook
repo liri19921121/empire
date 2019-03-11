@@ -1,0 +1,64 @@
+package com.otcbi.pay.controller;
+
+
+import com.google.gson.JsonSyntaxException;
+import com.otcbi.pay.service.IGoodsOnlineService;
+import com.stripe.exception.SignatureVerificationException;
+import com.stripe.model.Event;
+import com.stripe.net.Webhook;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+import java.util.stream.Collectors;
+
+/**
+ * 线上支付
+ */
+@RestController
+@RequestMapping("/shop/online")
+public class GoodsOnlineController {
+
+    @Value("${stripe.homeUrl}")
+    private String homeUrl;
+
+    @Value("${stripe.apiKey}")
+    String stripeApiKey;
+
+    @Value("${stripe.webhookSecret}")
+    String stripeWebhookSecret;
+
+    @Autowired
+    private IGoodsOnlineService iGoodsOnlineService;
+
+    @PostMapping(value = "/api/stripe-events")
+    public void stripeCallBack(HttpServletRequest request, HttpServletResponse response) throws Exception {
+        attestation(request,response);
+       // iGoodsOnlineService.stripeCallBack(request, response);
+    }
+
+    public void attestation(HttpServletRequest request, HttpServletResponse response) throws Exception {
+        String endpointSecret = stripeWebhookSecret;
+        String payload = request.getReader().lines().collect(Collectors.joining(System.lineSeparator()));
+        System.out.println("payload===" + payload);
+        String sigHeader = request.getHeader("Stripe-Signature");
+        Event event = null;
+        try {
+            event = Webhook.constructEvent(payload, sigHeader, endpointSecret);
+            System.out.println(event.getId());
+            System.out.println("验签成功");
+            response.setStatus(200);
+        } catch (JsonSyntaxException e) {
+            e.getMessage();
+            response.setStatus(400);
+        } catch (SignatureVerificationException e) {
+            e.printStackTrace();
+            response.setStatus(400);
+        }
+    }
+
+}
